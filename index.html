@@ -12,20 +12,16 @@
 <body>
   <header></header>
   <main>
-    <div class="slider-wrapper">
-      <button class="slider-button left" data-slider="button">left</button>
-      <button class="slider-button right" data-slider="button">right</button>
-      <div class="slider">
-        <ul class="track" data-slider="track" style="--position: 0">
-          <li class="slide style" data-slider="slide">1</li>
-          <li class="slide style" data-slider="slide">2</li>
-          <li class="slide style" data-slider="slide">3</li>
-          <li class="slide style" data-slider="slide">4</li>
-          <li class="slide style" data-slider="slide">5</li>
-          <li class="slide style" data-slider="slide">6</li>
-        </ul>
-      </div>
-    </div>
+    <custom-slider>
+      <template id="slider">
+        <li class="slide style" data-slider="slide">1</li>
+        <li class="slide style" data-slider="slide">2</li>
+        <li class="slide style" data-slider="slide">3</li>
+        <li class="slide style" data-slider="slide">4</li>
+        <li class="slide style" data-slider="slide">5</li>
+        <li class="slide style" data-slider="slide">6</li>
+      </template>
+    </custom-slider>
   </main>
   <footer></footer>
 </body>
