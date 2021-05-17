@@ -1,4 +1,4 @@
-@import './slider.css';
+@import "./slider.css";
 
 *,
 *::before,
@@ -29,10 +29,9 @@ footer {
   background: lightgray;
 }
 
-main{
+main {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3rem;
 }
-
