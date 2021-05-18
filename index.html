@@ -5,23 +5,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
-  <script src="index.js" type="module" defer></script>
+  <script type="module" src="index.js" defer></script>
   <title>Document</title>
 </head>
 
 <body>
   <header></header>
   <main>
-    <section class="slider">
-      <ul class="track">
-        <li class="slide"></li>
-        <li class="slide"></li>
-        <li class="slide"></li>
-        <li class="slide"></li>
-        <li class="slide"></li>
-        <li class="slide"></li>
-      </ul>
-    </section>
+    <custom-slider class="myslider">
+      <li slot="slides">1</li>
+      <li slot="slides">2</li>
+      <li slot="slides">3</li>
+      <li slot="slides">4</li>
+      <li slot="slides">5</li>
+      <li slot="slides">6</li>
+    </custom-slider>
   </main>
   <footer></footer>
 </body>
