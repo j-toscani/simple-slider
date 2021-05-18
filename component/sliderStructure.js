@@ -25,6 +25,14 @@ const track = {
     "data-slider": "track",
     style: "--position: 0",
   },
+  children: [
+    {
+      elementName: "slot",
+      attrs: {
+        name: "slides",
+      },
+    },
+  ],
 };
 
 const slider = {
