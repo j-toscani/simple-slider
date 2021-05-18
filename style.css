@@ -1,5 +1,3 @@
-@import "./slider.css";
-
 *,
 *::before,
 *::after {
@@ -34,4 +32,18 @@ main {
   justify-content: center;
   align-items: center;
   font-size: 3rem;
+}
+
+[slot="slides"] {
+  list-style: none;
+  background: red;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myslider {
+  width: 500px;
+  height: 400px;
 }
