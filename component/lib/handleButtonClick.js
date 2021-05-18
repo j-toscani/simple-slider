@@ -17,6 +17,7 @@ export default function createHandleButtonClick(limits) {
 
 function getNextSlide(step, track) {
   let activeSlide = getActiveSlide(track);
+
   activeSlide = activeSlide ?? 0;
   const nextSlide = parseInt(activeSlide) + step;
   return nextSlide;

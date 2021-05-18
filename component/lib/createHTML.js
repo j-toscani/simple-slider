@@ -44,6 +44,7 @@ function addChildren(element, children) {
  */
 
 export default function createHTML(structure) {
+  console.log(structure);
   const { elementName, attrs, children } = structure;
 
   let element = createHTMLElement(elementName);
